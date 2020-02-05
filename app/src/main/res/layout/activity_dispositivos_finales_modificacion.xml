@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.randomgames.shino.bitacora.DispositivosFinalesModificacion">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ID del Dispositivo:"
+                    android:textAlignment="viewStart" />
+
+                <EditText
+                    android:id="@+id/idIdDipositivoFinalModificacion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textAlignment="viewStart" />
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tipo de dispositivo:"
+                    android:textAlignment="viewStart" />
+
+                <EditText
+                    android:id="@+id/idTipoDispFinal2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textAlignment="viewStart" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Numero de serie:"
+                    android:textAlignment="viewStart" />
+
+                <EditText
+                    android:id="@+id/idNumSerieFinal2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textAlignment="viewStart" />
+
+                <TextView
+                    android:id="@+id/textview200"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Modelo:"
+                    android:textAlignment="viewStart" />
+
+                <EditText
+                    android:id="@+id/idModeloFinal2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textAlignment="viewStart" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sistema operativo:"
+                    android:textAlignment="viewStart" />
+
+                <EditText
+                    android:id="@+id/idSisOperaFinal2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textAlignment="viewStart" />
+
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Credenciales de acceso:"
+                    android:textAlignment="viewStart" />
+
+                <EditText
+                    android:id="@+id/idCredenAccesoFinal2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Usuario"
+                    android:inputType="textPersonName"
+                    android:textAlignment="viewStart" />
+
+                <EditText
+                    android:id="@+id/idCredenAccesoContraseñaFinal2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Contraseña"
+                    android:inputType="textPersonName" />
+
+                <TextView
+                    android:id="@+id/textView202"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Propietario:"
+                    android:textAlignment="viewStart" />
+
+                <EditText
+                    android:id="@+id/idPropietarioFinal2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textAlignment="viewStart" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ubicacion geografica:"
+                    android:textAlignment="viewStart" />
+
+                <EditText
+                    android:id="@+id/idUbicGeoFinal2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Latitud"
+                    android:inputType="textPersonName"
+                    android:textAlignment="viewStart" />
+
+                <EditText
+                    android:id="@+id/idUbicGeoLongFinal2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Longitud"
+                    android:inputType="textPersonName" />
+
+                <Button
+                    android:id="@+id/idGetUbicGeoFinal2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="actualizarPosicionDispositivo"
+                    android:text="Obtener Ubicacion" />
+
+                <Button
+                    android:id="@+id/idButtonToUpdateDiviceFinal2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8sp"
+                    android:onClick="actualizarDispositivo"
+                    android:text="Actualizar Registro" />
+
+                <Button
+                    android:id="@+id/idButtonToEliminateDeviceFinal2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8sp"
+                    android:onClick="eliminarDispositivo"
+                    android:text="Eliminar Registro" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="60sp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bitacora</string>
+    <string name="title_activity_localizacion_disp_intermedios">Map</string>
+    <string name="title_activity_localizacion_disp_intermedios_consulta">Map</string>
+    <string name="title_activity_localizacion_disp_intermedios_modificacion">Map</string>
+    <string name="title_activity_localizacion_disp_finales_consulta">Map</string>
+</resources>
